@@ -58,7 +58,7 @@ while True:
 
         # Labels the eye(s)
         if len(eyes) > 0:
-            cv2.putText(frame, 'Eyes', (x, y+h+90), manuefontScale=3, fontFace=cv2.FONT_HERSHEY_PLAIN, color=(255, 255, 255))
+            cv2.putText(frame, 'Eyes', (x, y+h+90), fontScale=3, fontFace=cv2.FONT_HERSHEY_PLAIN, color=(255, 255, 255))
 
     # Shows current frame
     cv2.imshow('Smiling', frame)
